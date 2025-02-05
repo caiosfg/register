@@ -10,7 +10,7 @@ interface ECommerceApiStackProps extends cdk.StackProps {
 }
 
 export class ECommerceApiStack extends cdk.Stack {
-    constructor(scope: Construct, id: string, props: ECommerceApiStackProps) {
+    constructor(scope: Construct, id: string, props?: ECommerceApiStackProps) {
         super(scope, id, props)
 
         // Logs no CloudWatch
